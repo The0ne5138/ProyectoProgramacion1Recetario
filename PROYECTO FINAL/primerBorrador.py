@@ -21,10 +21,6 @@ class receta:
     def modifica_receta(self,receta): # Elegir entre pasar el nombre por parametro, o que el metodo de opciones para buscar y eliminar.""se pasa un objeto RECETA"".
         """ Busca segun eleccion de una lista o parametro pasado. luego modifica y guarda los cambios """
         receta_aux = busca_receta(receta)
-        
-
-
-
         return # listo receta modificada con exito.
 
     def eliminar_receta(self, receta):  # Elegir entre pasar el nombre por parametro, o que el metodo de opciones para buscar y eliminar.
